@@ -1,0 +1,6 @@
+server:
+  port: 8086
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:mongo@localhost:20000/transactionDB?authSource=admin&retryWrites=true&w=majority
